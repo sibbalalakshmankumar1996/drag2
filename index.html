@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Drag and drop Functionality</title>
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div id="priority-section" class="col-12 col-lg-5 border-line">
+                    <h1 class="heading">Set Your Priority</h1>
+                    <p class="sub-heading">For the Experience that Matters</p>
+                    <div>
+                        <ul class="list-unstyled data-container">
+                            <li id="drag1" class="each-item d-inline-block p-2 p-lg-3" draggable="true">Be Empowered.
+                                Get Recognized</li>
+                            <li id="drag2" class="each-item d-inline-block p-2 p-lg-3" draggable="true">Think like
+                                an Entrepreneur</li>
+                            <li id="drag3" class="each-item d-inline-block p-2 p-lg-3" draggable="true">Flexibility to
+                                perform</li>
+                            <li id="drag4" class="each-item d-inline-block p-2 p-lg-3" draggable="true">Be Yourself, Be
+                                the Change</li>
+                            <li id="drag5" class="each-item d-inline-block p-2 p-lg-3" draggable="true">Live Life,
+                                Strike a Balance</li>
+                            <li id="drag6" class="each-item d-inline-block p-2 p-lg-3" draggable="true">Employee First,
+                                Employee Always</li>
+                            <li id="drag7" class="each-item d-inline-block p-2 p-lg-3" draggable="true">Make a
+                                Difference</li>
+                            <li id="drag8" class="each-item d-inline-block p-2 p-lg-3" draggable="true">A Learning curve
+                                for Everyone</li>
+                            <li id="drag9" class="each-item d-inline-block p-2 p-lg-3" draggable="true">Learn New
+                                Technologies</li>
+                            <li id="drag10" class="each-item d-inline-block p-2 p-lg-3" draggable="true">Endless
+                                Boundaries</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="thanks-section" class="thanks-section border-line col-12 col-lg-5">
+                    <div>
+                        <h1 class="heading">Thanks for...</h1>
+                        <p class="thanks-sub-heading">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="userEmail" class="mail-label">Enter Your Mail Id</label>
+                            <input type="email" id="userEmail" class="form-control" />
+                        </div>
+                        <div class="button-container">
+                            <button type="submit" class="submit-button">Submit</button>
+                            <i class="fa-solid fa-arrow-right right-arrow"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <section class="mt-4">
+                        <div class="circle-row d-flex flex-row justify-content-center align-items-center">
+                            <div id="drop1" class="circle-shape d-flex align-items-center"
+                            data-placeholder='1 Drag & drop here'></div>
+                        </div>
+                        <div class="circle-row d-flex flex-row justify-content-center align-items-center">
+                            <div id="drop2" class="circle-shape d-flex align-items-center"
+                                data-placeholder='2 Drag & drop here'></div>
+                            <div id="drop3" class="circle-shape d-flex align-items-center"
+                                data-placeholder='3 Drag & drop here'></div>
+                        </div>
+                        <div class="circle-row d-flex flex-row justify-content-center align-items-center">
+                            <div id="drop4" class="circle-shape d-flex align-items-center"
+                                data-placeholder='4 Drag & drop here'></div>
+                            <div id="drop5" class="circle-shape d-flex align-items-center"
+                                data-placeholder='5 Drag & drop here'></div>
+                            <div id="drop6" class="circle-shape d-flex align-items-center"
+                                data-placeholder='6 Drag & drop here'></div>
+                        </div>
+                        <div class="circle-row d-flex flex-row justify-content-center align-items-center">
+                            <div id="drop7" class="circle-shape d-flex align-items-center"
+                                data-placeholder='7 Drag & drop here'></div>
+                            <div id="drop8" class="circle-shape d-flex align-items-center"
+                                data-placeholder='8 Drag & drop here'></div>
+                            <div id="drop9" class="circle-shape d-flex align-items-center"
+                                data-placeholder='9 Drag & drop here'></div>
+                            <div id="drop10" class="circle-shape d-flex align-items-center"
+                                data-placeholder='10 Drag & drop here'></div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+    <script src="dragDrop.js"></script>
+</body>
+
+</html>
